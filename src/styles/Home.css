@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .container h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .container .subtitle {
+    font-size: 1.25rem;
+    color: #777;
+  }
+  
+  .container button {
+    border-radius: 9999px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
