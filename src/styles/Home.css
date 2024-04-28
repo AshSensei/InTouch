@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
     background-color: #f8f8f8;
+    height: 100%; /* Set the body height to 100% */
   }
   
   .container {
@@ -9,7 +9,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; /* Use min-height instead of height */
     padding: 1rem;
     text-align: center;
   }
