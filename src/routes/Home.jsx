@@ -9,7 +9,7 @@ export default function Home(){
         <Typography variant="subtitle1" className="subtitle">
             [insert subtitle]
         </Typography>
-        <Link to="/login" >
+        <Link to="/login">
             <Button variant="contained" color="primary">
                 Login
             </Button>
